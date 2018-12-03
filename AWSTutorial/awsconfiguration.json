@@ -1,0 +1,35 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "YOUR-POOL-ID",
+                "Region": "YOUR-REGION"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "YOUR-REGION"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "YOUR-APP-ID",
+            "Region": "YOUR-REGION"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "YOUR-REGION"
+        }
+    },
+    "FacebookSignIn": {
+        "AppId": "YOUR-FACEBOOK-APP-ID",
+        "Permissions": "public_profile"
+    }
+}
